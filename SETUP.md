@@ -90,4 +90,4 @@ Now try to run your app once again, if you completed your installation properly,
     <img src='https://cdn.discordapp.com/attachments/615992087468572686/790094587271577620/unknown.png' alt=''>
 </p>
 
-You are now ready to start the workshop ! Good luck !
+You are now ready to start the [workshop](./README.md) ! Good luck !
