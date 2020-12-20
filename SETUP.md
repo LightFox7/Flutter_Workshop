@@ -7,7 +7,7 @@ However, if flutter works fine on whatever system you use, feel free to use it.
 
 You need the follow the steps in [this tutorial](https://flutter.dev/docs/get-started/editor).
 
-Then you will create a flutter app, as described in [this tutorial](https://flutter.dev/docs/get-started/test-drive)
+Then you will create a flutter app, as described in [this tutorial](https://flutter.dev/docs/get-started/test-drive).
 
 For the emulator, if you haven't already one, install the Google Pixel 2 emulator with android 9.0 (API 28) in the android studio emulator section
 Test that the app you created runs fine, if so, go to the next step.
@@ -84,7 +84,7 @@ You can see a "flutter commands" section at the top of your editor, click on "Pu
 
 You just need to replace your lib folder with the one provided in this repository for this step.
 
-Now try to run your app once again, if you completed your installation properly, you should land on a screen that looks like this
+Now try to run your app once again, if you completed your installation properly, you should land on a screen that looks like this:
 
 <p align="center">
     <img src='https://cdn.discordapp.com/attachments/615992087468572686/790094587271577620/unknown.png' alt=''>
