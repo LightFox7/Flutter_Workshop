@@ -87,6 +87,7 @@ When an image is selected, your screen should look like this.
 Congratulations on finishing the workshop !
 Although you have finished the workshop, here's a little list of some bonuses you could add to your project
 
+- [Build an APK](https://flutter.dev/docs/deployment/android) of your app in order to test it on your phone
 - Changing the appearance of tasks in the todo list
 - Adding a [pull to refresh](https://api.flutter.dev/flutter/material/RefreshIndicator-class.html) feature to your todo list
 - Adding new pages to the BottomNavigationBar in the main.dart file
