@@ -5,7 +5,8 @@ However, if flutter works fine on whatever system you use, feel free to use it.
 
 ## Step 1: Install Android Studio and flutter
 
-You need the follow the steps in [this tutorial](https://flutter.dev/docs/get-started/editor)
+You need the follow the steps in [this tutorial](https://flutter.dev/docs/get-started/editor).
+
 Then you will create a flutter app, as described in [this tutorial](https://flutter.dev/docs/get-started/test-drive)
 
 For the emulator, if you haven't already one, install the Google Pixel 2 emulator with android 9.0 (API 28) in the android studio emulator section
