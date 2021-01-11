@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'dart:io';
-
 import 'package:image_picker/image_picker.dart';
 
-// Page for the Step 3
+// Page for the Step 4
 
 class Page2Widget extends StatelessWidget {
   @override

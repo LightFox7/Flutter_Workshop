@@ -63,7 +63,7 @@ Once added, your AndroidManifest.xml file should look like this:
 </manifest>
 ```
 
-After that, you need to install the dependencies, [http](https://pub.dev/packages/http) and [image_picker](https://pub.dev/packages/image_picker).
+After that, you need to install the dependencies, [sqflite](https://pub.dev/packages/sqflite) and [image_picker](https://pub.dev/packages/image_picker).
 In order to do that, go to the pubspec.yaml file and add the dependencies.
 
 Once done, your dependencies section of the file should look like that.
@@ -74,8 +74,8 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.0
-  http: ^0.12.2
   image_picker: ^0.6.7+17
+  sqflite: ^1.3.0
 ```
 
 You can see a "flutter commands" section at the top of your editor, click on "Pub get" to get the dependencies, otherwise you can just type "flutter pub get" in the terminal.
