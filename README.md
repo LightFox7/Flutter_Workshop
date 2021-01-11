@@ -27,23 +27,25 @@ Try displaying the _toddItems list of tasks by editing the _buildToDoList member
 Here's what it should look like once done:
 
 <p align="center">
-    <img src='https://cdn.discordapp.com/attachments/797515635969490994/798242313859498024/unknown.png' alt=''>
+    <img src='https://cdn.discordapp.com/attachments/797515635969490994/798306880853770351/unknown.png' alt=''>
 </p>
 
 > You may want to use [this](https://api.flutter.dev/flutter/widgets/ListView-class.html)
 
-## Step 2: Fetch the list from an API
+## Step 2: Fetch the list from an Database
 
 Congratulations ! You now know how to display a todo list !
-But wouldn't it be better if we fetched it from an api ?
+But wouldn't it be better if we fetched it from an database ?
+
+You can see that we already made the database for you, you just have to use it using the member functions of the db object in the TodoList widget !
 
 Edit the TodoList widget in order to fetch the tasks using the getItem function of the database db and passing the result to the _buildToDoList member function.
-You may also want to see what the _buildToDoList funtion looks like to know how to fetch data with the Dart http package.
+/!\ As you can see in the Storage.dart file, the getItem function is asynchronous, you may really want to look at the hint below /!\
 
 Here's what it should look like once done:
 
 <p align="center">
-    <img src='https://cdn.discordapp.com/attachments/797515635969490994/798242131461931018/unknown.png' alt=''>
+    <img src='https://cdn.discordapp.com/attachments/797515635969490994/798306581438922762/unknown.png' alt=''>
 </p>
 
 > Here's a little [hint](https://api.flutter.dev/flutter/widgets/FutureBuilder-class.html)
@@ -67,7 +69,7 @@ Now we can properly display a Todo list, but we can't add tasks yet, try adding 
 Here's a simple example of what it could look like:
 
 <p align="center">
-    <img src='https://cdn.discordapp.com/attachments/797515635969490994/798241373438345247/unknown.png' alt=''>
+    <img src='https://cdn.discordapp.com/attachments/797515635969490994/798306073308037220/unknown.png' alt=''>
     <img src='https://cdn.discordapp.com/attachments/797515635969490994/798241613658193980/unknown.png' alt=''>
 </p>
 

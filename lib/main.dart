@@ -33,7 +33,7 @@ class _MyAppState extends State<MyApp> {
     await db
         .insertItem(Todo(title: "Step 1", desc: "Display a to list", done: 1));
     await db.insertItem(
-        Todo(title: "Step 2", desc: "Display a list from an API", done: 1));
+        Todo(title: "Step 2", desc: "Display a list from a database", done: 1));
     await db.insertItem(
         Todo(title: "Step 2.5", desc: "Show a loading indicator", done: 0));
     await db.insertItem(Todo(title: "Step 3", desc: "Add a button to create tasks", done: 0));

@@ -21,7 +21,7 @@ class TodoList extends StatelessWidget {
   final List<Todo> _todoItems = [
     Todo(title: "Step 0.5", desc: "Display a task", done: 1),
     Todo(title: "Step 1", desc: "Display a to list", done: 1),
-    Todo(title: "Step 2", desc: "Display a list from an API", done: 0),
+    Todo(title: "Step 2", desc: "Display a list from a database", done: 0),
     Todo(title: "Step 2.5", desc: "Show a loading indicator", done: 0),
     Todo(title: "Step 3", desc: "Add a button to create tasks", done: 0)
   ];
