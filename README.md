@@ -40,6 +40,7 @@ But wouldn't it be better if we fetched it from an database ?
 You can see that we already made the database for you, you just have to use it using the member functions of the db object in the TodoList widget !
 
 Edit the TodoList widget in order to fetch the tasks using the getItem function of the database db and passing the result to the _buildToDoList member function.
+
 /!\ As you can see in the Storage.dart file, the getItem function is asynchronous, you may really want to look at the hint below /!\
 
 Here's what it should look like once done:
