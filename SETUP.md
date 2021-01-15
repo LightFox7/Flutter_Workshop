@@ -14,27 +14,25 @@ Test that the app you created runs fine, if so, go to the next step.
 
 ## Step 2: Dependencies and permissions
 
-For this workshop, we'll use the [http](https://pub.dev/packages/http) and [image_picker](https://pub.dev/packages/image_picker) packages.
+For this workshop, we'll use the [sqflite](https://pub.dev/packages/sqflite) and [image_picker](https://pub.dev/packages/image_picker) packages.
 
-The [image_picker](https://pub.dev/packages/image_picker) package will need to access the gallery and camera of your phone (or emulator in our case) and the [http](https://pub.dev/packages/http) will need to use internet access, so we need to add those three lines to our AndroidManifest.xml file (found in the android/app/src/main folder of your flutter project):
+The [image_picker](https://pub.dev/packages/image_picker) package will need to access the gallery and camera of your phone (or emulator in our case), so we need to add those two lines to our AndroidManifest.xml file (found in the android/app/src/main folder of your flutter project):
 
 ```xml
 <uses-permission android:name="android.permission.CAMERA" />
 <uses-permission android:name="android.permission.FLASHLIGHT" />
-<uses-permission android:name="android.permission.INTERNET"/>
 ```
 
 Once added, your AndroidManifest.xml file should look like this:
 
 ```xml
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.flutter_workshop_correction">
+    package="com.example.flutter_workshop">
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.FLASHLIGHT" />
-    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:name="io.flutter.app.FlutterApplication"
-        android:label="flutter_workshop_correction"
+        android:label="flutter_workshop"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
