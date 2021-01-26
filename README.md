@@ -16,7 +16,7 @@ In the page1.dart file, you can see a [stateless widget](https://api.flutter.dev
 Here's what it should look like once done:
 
 <p align="center">
-    <img src='https://cdn.discordapp.com/attachments/797515635969490994/797515646865768488/unknown.png' alt=''>
+    <img src='https://cdn.discordapp.com/attachments/797515635969490994/803607584522502154/unknown.png' alt=''>
 </p>
 
 ## Step 1: Display an actual list
