@@ -22,10 +22,9 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
-    initDB();
   }
 
-  Future<void> initDB() async {
+  Future initDB() async {
     await db.init();
     await db.cleanAll();
     await db
@@ -37,13 +36,18 @@ class _MyAppState extends State<MyApp> {
     await db.insertItem(
         Todo(title: "Step 2.5", desc: "Show a loading indicator", done: 0));
     await db.insertItem(Todo(title: "Step 3", desc: "Add a button to create tasks", done: 0));
+    return true;
   }
 
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: _title,
-      home: NavBarApp(db: db),
-    );
+    return FutureBuilder(
+        future: initDB(),
+        builder: (BuildContext context, snapshot) {
+        return (snapshot.hasData) ? MaterialApp(
+          title: _title,
+          home: NavBarApp(db: db),
+        ) : Center();
+    });
   }
 }
 
